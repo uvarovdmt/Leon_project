@@ -1,0 +1,42 @@
+.inner-section {
+    background: #fff;
+    color: #022123;
+    padding: 166px 0;
+}
+
+.inner-section--bg--grey {
+    background: #f4f5f5;
+}
+
+.inner-section__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners__item {
+    margin-left: 20px;
+}
+
+.partners__item:nth-child(4n + 1) {
+    margin-left: 0;
+}
+
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 270px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+   /* filter: grayscale(100%);
+}
+
+.partners__link:hover {
+    filter: grayscale(0);
+}    Делаем логотипы серыми с цветом при hover */ 

@@ -1,0 +1,53 @@
+/* Services page */
+
+.top-line {
+    min-height: 415px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    background: #202123 url(../../img/background/lion-head-wide\ 1.png) right top no-repeat;
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 41px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item--active .breadcrumbs_link {
+    color: #999999;
+    font-weight: bold;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    color: #999;
+    padding: 0 3px;
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs_link {
+    color: #999999;
+    font-size: 14px;
+}

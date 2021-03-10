@@ -1,0 +1,110 @@
+body, html {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #29282D;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-height: 1200px;
+}
+
+.main-page-wrapper {
+    background: url(../../img/background/lion-header\ 1.png) center top no-repeat, url(../../img/background/bottom-pic\ 1.png) right bottom 307px no-repeat;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 600px;
+}
+
+.btn {
+    border-radius: 4px;
+    padding: 17px 39px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn--color--ginger {
+    background: #dfb56d;
+}
+
+.btn--color--ginger:hover {
+    background: #d3a556;
+    box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15);
+}
+
+.btn--color--black {
+    background: #202123;
+}
+
+.btn--color--black:hover {
+    background: #dfb56d;
+}
+
+
+.section {
+    margin-bottom: 107px;
+}
+
+.section__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}

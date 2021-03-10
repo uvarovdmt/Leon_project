@@ -1,0 +1,44 @@
+.page-content {
+    background: #fff;
+    color: #303030;
+    padding: 40px 0;
+    }
+    
+    .services {
+        margin-bottom: 65px;
+    }
+    
+    .service {
+        display: flex;
+        padding: 59px 30px;
+        text-decoration: none;
+    }
+    
+    .service:hover {
+        background: #f4f5f5;
+    }
+    
+    .service:hover .service__btn {
+        background: #dfb56d;
+    }
+    
+    .service__img {
+        width: 40%;
+        margin-right: 5%;
+    }
+    
+    .service__content {
+        flex: 1;
+    }
+    
+    .service__title {
+        font-size: 31px;
+        font-weight: bold;
+        margin-bottom: 22px;
+        color: #202123;
+    }
+    
+    .service__desc {
+        line-height: 1.7;
+        margin-bottom: 45px;
+    }
