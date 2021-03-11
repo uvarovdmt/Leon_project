@@ -1,3 +1,7 @@
+.section--about {
+    margin-bottom: 35px;
+}
+
 .about {
     display: flex;
 }
@@ -12,7 +16,7 @@
 
 .about__desc {
     background: #202123;
-    padding: 80px 98px;
+    padding: 69px 79px;
     max-width: 780px;
     margin-left: -133px;
     margin-top: 97px;
@@ -27,7 +31,7 @@
 }
 
 .about__desc-text {
-    margin-bottom: 42px;
+    margin-bottom: 65px;
     line-height: 27px;
 }
 

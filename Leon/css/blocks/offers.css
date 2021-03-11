@@ -1,3 +1,7 @@
+.section--offers {
+    margin-bottom: 128px;
+}
+
 .offers {
     display: flex;
     justify-content: space-between;

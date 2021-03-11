@@ -1,7 +1,7 @@
 .inner-section {
     background: #fff;
     color: #022123;
-    padding: 166px 0;
+    padding: 166px 0 64px;
 }
 
 .inner-section--bg--grey {
@@ -11,7 +11,7 @@
 .inner-section__title {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 75px;
+    margin-bottom: 61px;
 }
 
 .partners {
@@ -21,10 +21,15 @@
 
 .partners__item {
     margin-left: 20px;
+    margin-bottom: 27px;
 }
 
 .partners__item:nth-child(4n + 1) {
     margin-left: 0;
+}
+
+.partners__item:nth-child(4n + 1) a {
+    justify-content: flex-start;
 }
 
 .partners__link {
@@ -34,8 +39,8 @@
     height: 100px;
     align-items: center;
     justify-content: center;
-   /* filter: grayscale(100%);
 }
+   /* filter: grayscale(100%);
 
 .partners__link:hover {
     filter: grayscale(0);

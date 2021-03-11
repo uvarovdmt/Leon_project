@@ -10,7 +10,7 @@
     
     .service {
         display: flex;
-        padding: 59px 30px;
+        padding: 59px 0px;
         text-decoration: none;
     }
     
@@ -23,8 +23,12 @@
     }
     
     .service__img {
-        width: 40%;
+        width: 41%;
         margin-right: 5%;
+    }
+
+    .service__img-elm {
+        width: 100%;
     }
     
     .service__content {
@@ -32,9 +36,9 @@
     }
     
     .service__title {
-        font-size: 31px;
+        font-size: 36px;
         font-weight: bold;
-        margin-bottom: 22px;
+        margin-bottom: 41px;
         color: #202123;
     }
     
