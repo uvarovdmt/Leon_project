@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.pager--services {
+    margin-bottom: 75px;
+}
+
 .pager--theme--light {
     color: #202123;
 }
@@ -43,6 +47,7 @@
     text-decoration: none;
     font-weight: bold;
     line-height: 32px;
+    transition: .4s;
 }
 
 .pager__link:hover {

@@ -1,0 +1,18 @@
+.separator {
+    background: #e5c288 url(../../img/reviews/phone-n-hand\ 1.png) right 28% bottom no-repeat;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #202123;
+}
+
+.separator__content {
+    max-width: 45%;
+}
+
+.separatoe__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.1;
+}
