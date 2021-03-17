@@ -79,6 +79,10 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
+    transition: .4s;
+    background: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .btn--color--ginger {
